@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'control_cat'
+
+chatter = ControlCat::Chatter.new
+config = ControlCat::ConfigLoader.new
+
+chatter.say_hello
+config.first_start
+chatter.say_adios
