@@ -13,7 +13,7 @@ module ControlCat
 			"ZFS_RW_Error_Report" => true,
 			"ZFS_Stautus_Report" => "weekly"
 		}
-
+		
 		def first_start
 			system 'mkdir', '-p', ControlCat::PATH
 			

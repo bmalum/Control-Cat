@@ -2,11 +2,14 @@
 
 require 'control_cat'
 
+##
+# rdoc test
 chatter = ControlCat::Chatter.new
 config = ControlCat::ConfigLoader.new
 start = ControlCat::Starter.new
 
 
 chatter.say_hello
+start.is_first_start
 config.first_start
 chatter.say_adios
