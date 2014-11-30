@@ -4,6 +4,8 @@ require 'control_cat'
 
 chatter = ControlCat::Chatter.new
 config = ControlCat::ConfigLoader.new
+start = ControlCat::Starter.new
+
 
 chatter.say_hello
 config.first_start
