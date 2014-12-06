@@ -3,6 +3,15 @@ require 'colorize'
 module ControlCat
 	class Starter
 
+		def initialize
+			puts "Initializing Starter .... ".blue
+			if(is_first_start)
+				#TODO Create Config with User
+			else
+				#Load Config wiht Config_Loader to System Constansts
+			end
+		end
+
 		# This Method should be called at first at every ControlCat start.
 		#
 		# This Method will check if ~/.ControlCat/config.yml exists
@@ -15,6 +24,13 @@ module ControlCat
 				return false
 			end
 		end
+
+		def load_config
+		# load conifg
+		end
+
+
+
 
 	end
 end

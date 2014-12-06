@@ -1,7 +1,9 @@
+require 'daemons'
+
 module ControlCat
 	class Chatter
 		def say_hello
-			puts  'This is ControlCat - Your Servers "Control Freak"'.green
+			puts  'This is ControlCat 🐯 - Your Servers "Control Freak"'.green
 		end
 
 		def say_adios

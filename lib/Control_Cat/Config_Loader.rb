@@ -1,6 +1,7 @@
 require "Control_Cat/version"
 require 'open3'
 
+
 module ControlCat
 	class ConfigLoader
 		
