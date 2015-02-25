@@ -25,6 +25,9 @@ module ControlCat
 			end
 		end
 
+		# # Config Loading
+		# Loading Config with Function from Config_Loader Class
+		# Confi will be stored in config.rb in ControlCat Module Conatans
 		def load_config
 		# load conifg
 		end

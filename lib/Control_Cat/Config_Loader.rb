@@ -28,7 +28,9 @@ module ControlCat
 		  		puts "stderr is:" + stderr.read
 			end
 		end
-
+		
+		# Read Config 
+		#
 		def read_config
 			File.exists?('')
 			@@config = YAML.load_file(ControlCat::PATH+ControlCat::CONFIGFILE)
